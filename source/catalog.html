@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Название проекта</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="scripts/index.js" defer></script>
+</head>
+
+<body class="page__body">
+  <header class="main-header">
+    <div class="main-header-user">
+      <div class="main-header__logo-cat">
+        <a class="main-header__logo" href="#">
+          <img class="main-header__logo-img" src="images/logo-cat.svg" alt="Супер котик">
+          <img class="main-header__logo-text" src="images/logo-text.svg" alt="Сat-energy">
+        </a>
+      </div>
+      <nav class="main-menu">
+        <button class="main-nav-toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <div class="main-nav-wrapper">
+          <ul class="main-nav-list site-list">
+            <li class="site-list__item">
+              <a href="index.html">Главная</a>
+            </li>
+            <li class="site-list__item site-list__item-active ">
+              <a href="#">Каталог продукции</a>
+            </li>
+            <li class="site-list__item">
+              <a href="program-details.html">Подбор программы</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main class="main-container">
+    <section class="catalog-wrapper">
+      <h1 class="Catalog-product">Каталог продукции</h1>
+      <ul class="product-cart">
+        <li class="product-list">
+          <picture>
+            <source media="(min-width: 1200px)" width="169" height="210" type="image/jpeg" srcset="images/chiken-500-dekstop@1x.jpg 1x, images/chiken-500-dekstop@2x.jpg 2x">
+
+            <source media="(min-width: 768px)" width="200" height="210" type="image/jpeg" srcset="images/chiken-500-tablet@1x.jpg 1x, images/chiken-500-tablet@2x.jpg 2x">
+
+            <img src="images/chiken-500-mobile@1x.jpg" srcset="images/chiken-500-mobile@2x.jpg" width="140" height="107" alt="Корм с курицей 500г">
+          </picture>
+          <h3 class="product-title">Cat Energy PRO 500 г</h3>
+          <div class=" characteristic">
+            <p class="product-text">Масса</p>
+            <span class="product-description">500г
+            </span>
+          </div>
+          <div class="characteristic">
+            <p class="product-text">Вкус</p>
+            <span class="product-description">Курица
+            </span>
+          </div>
+          <div class="characteristic">
+            <p class="product-text">Цена</p>
+            <span class="product-description">700р
+            </span>
+          </div>
+          <button class="button-order button" type="button">
+            Заказать
+          </button>
+        </li>
+        <li class="product-list">
+          <picture>
+            <source media="(min-width: 1200px)" width="169" height="210" type="image/jpeg" srcset="images/chiken-1000-dekstop@1x.jpg 1x, images/chiken-1000-dekstop@2x.jpg 2x">
+
+            <source media="(min-width: 768px)" width="200" height="210" type="image/jpeg" srcset="images/chiken-1000-tablet@1x.jpg 1x, images/chiken-1000-tablet@2x.jpg 2x">
+
+            <img src="images/chiken-1000-mobile@1x.jpg" srcset="images/chiken-1000-mobile@2x.jpg" width="140" height="107" alt="Корм с курицей 1000г">
+          </picture>
+          <h3 class="product-title">Cat Energy PRO 1000 г</h3>
+          <div class="characteristic">
+            <p class="product-text">Масса</p>
+            <span class="product-description">1000г
+            </span>
+          </div>
+          <div class="characteristic">
+            <p class="product-text">Вкус</p>
+            <span class="product-description">Курица
+            </span>
+          </div>
+          <div class="characteristic">
+            <p class="product-text">Цена</p>
+            <span class="product-description">1000р
+            </span>
+          </div>
+          <button class="button-order button" type="button">
+            Заказать
+          </button>
+        </li>
+        <li class="product-list">
+          <picture>
+            <source media="(min-width: 1200px)" width="169" height="210" type="image/jpeg" srcset="images/fish-500-dekstop@1x.jpg 1x, images/fish-500-dekstop@2x.jpg 2x">
+
+            <source media="(min-width: 768px)" width="200" height="210" type="image/jpeg" srcset="images/fish-500-tablet@1x.jpg 1x, images/fish-500-tablet@2x.jpg 2x">
+
+            <img src="images/fish-500-mobile@1x.jpg" srcset="images/fish-500-mobile@2x.jpg" width="140" height="107" alt="Корм с рыбой 500г">
+          </picture>
+          <h3 class="product-title">Cat Energy PRO 500 г</h3>
+          <div class="characteristic">
+            <p class="product-text">Масса</p>
+            <span class="product-description">500г
+            </span>
+          </div>
+          <div class="characteristic">
+            <p class="product-text">Вкус</p>
+            <span class="product-description">Рыба
+            </span>
+          </div>
+          <div class="characteristic">
+            <p class="product-text">Цена</p>
+            <span class="product-description">700р
+            </span>
+          </div>
+          <button class="button-order button" type="button">
+            Заказать
+          </button>
+        </li>
+        <li class="product-list">
+          <picture>
+            <source media="(min-width: 1200px)" width="169" height="210" type="image/jpeg" srcset="images/fish-1000-dekstop@1x.jpg 1x, images/fish-1000-dekstop@2x.jpg 2x">
+
+            <source media="(min-width: 768px)" width="200" height="210" type="image/jpeg" srcset="images/fish-1000-tablet@1x.jpg 1x, images/fish-1000-tablet@2x.jpg 2x">
+
+            <img src="images/fish-1000-mobile@1x.jpg" srcset="images/fish-1000-mobile@2x.jpg" width="140" height="107" alt="Корм с рыбой 1000г">
+          </picture>
+          <h3 class="product-title">Cat Energy PRO 1000 г</h3>
+          <div class="characteristic">
+            <p class="product-text">Масса</p>
+            <span class="product-description">1000г
+            </span>
+          </div>
+          <div class="characteristic">
+            <p class="product-text">Вкус</p>
+            <span class="product-description">Рыба
+            </span>
+          </div>
+          <div class="characteristic">
+            <p class="product-text">Цена</p>
+            <span class="product-description">1000р
+            </span>
+          </div>
+          <button class="button-order button" type="button">
+            Заказать
+          </button>
+        </li>
+        <li class="product-list">
+          <picture>
+            <source media="(min-width: 1200px)" width="169" height="210" type="image/jpeg" srcset="images/buckwheat-500-dekstop@1x.jpg 1x, images/buckwheat-500-dekstop@2x.jpg 2x">
+
+            <source media="(min-width: 768px)" width="200" height="210" type="image/jpeg" srcset="images/buckwheat-500-tablet@1x.jpg 1x, images/buckwheat-500-tablet@2x.jpg 2x">
+
+            <img src="images/buckwheat-500-mobile@1x.jpg" srcset="images/buckwheat-500-mobile@2x.jpg" width="140" height="107" alt="Корм с гречкой 500г">
+          </picture>
+          <h3 class="product-title">Cat Energy slim 500 г</h3>
+          <div class="characteristic">
+            <p class="product-text">Масса</p>
+            <span class="product-description">500г
+            </span>
+          </div>
+          <div class="characteristic">
+            <p class="product-text">Вкус</p>
+            <span class="product-description">гречка
+            </span>
+          </div>
+          <div class="characteristic">
+            <p class="product-text">Цена</p>
+            <span class="product-description">400р
+            </span>
+          </div>
+          <button class="button-order button" type="button">
+            Заказать
+          </button>
+        </li>
+        <li class="product-list">
+          <picture>
+            <source media="(min-width: 1200px)" width="169" height="210" type="image/jpeg" srcset="images/buckwheat-1000-dekstop@1x.jpg 1x, images/buckwheat-1000-dekstop@2x.jpg 2x">
+
+            <source media="(min-width: 768px)" width="200" height="210" type="image/jpeg" srcset="images/buckwheat-1000-tablet@1x.jpg 1x, images/buckwheat-1000-tablet@2x.jpg 2x">
+
+            <img src="images/buckwheat-1000-mobile@1x.jpg" srcset="images/buckwheat-1000-mobile@2x.jpg" width="140" height="107" alt="Корм с гречкой 1000г">
+          </picture>
+          <h3 class="product-title">Cat Energy slim 1000 г</h3>
+          <div class="characteristic">
+            <p class="product-text">Масса</p>
+            <span class="product-description">1000г
+            </span>
+          </div>
+          <div class="characteristic">
+            <p class="product-text">Вкус</p>
+            <span class="product-description">Гречка
+            </span>
+          </div>
+          <div class="characteristic">
+            <p class="product-text">Цена</p>
+            <span class="product-description">700р
+            </span>
+          </div>
+          <button class="button-order button" type="button">
+            Заказать
+          </button>
+        </li>
+        <li class="product-list">
+          <picture>
+            <source media="(min-width: 1200px)" width="169" height="210" type="image/jpeg" srcset="images/rice-500-dekstop@1x.jpg 1x, images/rice-500-dekstop@2x.jpg 2x">
+
+            <source media="(min-width: 768px)" width="200" height="210" type="image/jpeg" srcset="images/rice-500-tablet@1x.jpg 1x, images/rice-500-tablet@2x.jpg 2x">
+
+            <img src="images/rice-500-mobile@1x.jpg" srcset="images/rice-500-mobile@2x.jpg" width="140" height="107" alt="Корм с рисом 500г">
+          </picture>
+          <h3 class="product-title">Cat Energy slim 500 г</h3>
+          <div class="characteristic">
+            <p class="product-text">Масса</p>
+            <span class="product-description">500г
+            </span>
+          </div>
+          <div class="characteristic">
+            <p class="product-text">Вкус</p>
+            <span class="product-description">Рис
+            </span>
+          </div>
+          <div class="characteristic">
+            <p class="product-text">Цена</p>
+            <span class="product-description">500р
+            </span>
+          </div>
+          <button class="button-order button" type="button">
+            Заказать
+          </button>
+        </li>
+      </ul>
+    </section>
+    <section class="additionally">
+      <div class="additionally-wrapper">
+        <h2 class="additionally-title">Дополнительные товары</h2>
+        <div class="components">
+          <p class="components-item">
+            Сахарозаменитель
+          </p>
+          <span class="components-volume">
+            1 упаковка(100 г)
+          </span>
+          <span class="components-description">
+            200р
+          </span>
+          <button class="button-components-order button" type="button">
+            Заказать
+          </button>
+        </div>
+        <div class="components">
+          <p class="components-item">
+            Питьевая вода
+          </p>
+          <span class="components-volume">
+            5 литров
+          </span>
+          <span class="components-description">
+            50р
+          </span>
+          <button class="button-components-order button" type="button">
+            Заказать
+          </button>
+        </div>
+        <div class="components">
+          <p class="components-item">
+            Молоко
+          </p>
+          <span class="components-volume">
+            1 литр
+          </span>
+          <span class="components-description">
+            100р
+          </span>
+          <button class="button-components-order button" type="button">
+            Заказать
+          </button>
+        </div>
+        <div class="components">
+          <p class="components-item">
+            Витамины
+          </p>
+          <span class="components-volume">
+            1 упаковка(30 г)
+          </span>
+          <span class="components-description">
+            300р
+          </span>
+          <button class="button-components-order button" type="button">
+            Заказать
+          </button>
+        </div>
+        <div class="present">
+          <img src="#" alt="Подарок">
+          <p class="present-text">Закажите все
+            и получите чехол для
+            кота в подарок!</p>
+        </div>
+      </div>
+    </section>
+    <section class="stock">
+      <div class="stock-wrapper">
+        <h2 class="stock-title">Акции и новинки</h2>
+        <h3 class="subscription">
+          Подпишитесь на наши новости и не пропустите ни одного предложения!
+        </h3>
+        <form class="news-letter-form" action="https://htmlacademy.ru/" method="post">
+          <label for="news-letter-email"></label>
+          <input class="field" placeholder="kuklachev@gmail.com" type="email" name="news-letter-email" id="news-letter-email" required>
+          <button class="button-newsletter button" type="submit">
+            <span class="news-letter">Подписаться</span>
+          </button>
+        </form>
+      </div>
+    </section>
+    <section class="map">
+      <h2>Карта</h2>
+      <picture>
+        <source media="(min-width: 1200px)" width="1440" height="400" type="image/jpeg" srcset="images/location-dextop@1x.jpg 1x, images/location-dextop@2x.jpg 2x">
+
+        <source media="(min-width: 768px)" width="768" height="400" type="image/jpeg" srcset="images/location-tablet@1x.jpg 1x, images/location-tablet@2x.jpg 2x">
+
+        <img src="images/location-mobile@1x.jpg" srcset="images/location-mobile@2x.jpg" width="320" height="362" alt="Локация">
+      </picture>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <div class="main-footer__wrapper">
+      <div class="main-footer__logo logo">
+        <p>Cat energy</p>
+      </div>
+      <div class="main-footer__social social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--vkonakte" href="https://vk.com/htmlacademy">
+              ВКонтакте
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--youtube" href="https://www.youtube.com/@HTMLAcademyTV">
+              Ютуб
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--telegram" href="https://t.me/htmlacademy">
+              Телеграм
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-footer__copyrightcopyright">
+        <a class="copirayting-link" href="https://htmlacademy.ru/study">
+          <b class="copyright-text">HTML Academy</b>
+          <span>лого</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
