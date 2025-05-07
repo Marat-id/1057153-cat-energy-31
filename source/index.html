@@ -12,26 +12,26 @@
 <body class="page__body">
   <header class="main-header">
     <div class="main-header-user">
-      <div class="main-header__logo-cat">
+      <div class="main-header__logo--cat">
         <a class="main-header__logo" href="#">
           <img class="main-header__logo-img" src="images/logo-cat.svg" alt="Супер котик">
           <img class="main-header__logo-text" src="images/logo-text.svg" alt="Сat-energy">
         </a>
       </div>
-      <nav class="main-menu">
+      <nav class="main__menu--nav">
         <button class="main-nav-toggle" type="button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
         <div class="main-nav-wrapper">
           <ul class="main-nav-list site-list">
             <li class="site-list__item site-list__item-active">
-              <a href="#">Главная</a>
+              <a class="link-nav" href="#">Главная</a>
             </li>
             <li class="site-list__item ">
-              <a href="catalog.html">Каталог продукции</a>
+              <a class="link-nav" href="catalog.html">Каталог продукции</a>
             </li>
             <li class="site-list__item">
-              <a href="program-details.html">Подбор программы</a>
+              <a class="link-nav" href="program-details.html">Подбор программы</a>
             </li>
           </ul>
         </div>
@@ -45,7 +45,7 @@
       </h2>
       <p class="main-text">Занялся собой? Займись котом!</p>
       <button class="main-button-program button" type="button">
-        <span class="text-button">Подобрать программу</span>
+        <span class="button__main--text">Подобрать программу</span>
       </button>
       <picture>
         <source media="(min-width: 1200px)" width="552" height="499" type="image/jpeg" srcset="images/index-can-dekstop@1x.jpg 1x, images/index-can-dekstop@2x.jpg 2x">
@@ -62,22 +62,22 @@
       <div class="rules__wrapper">
         <h2 class="visually-hidden">Описание линеек корма</h2>
         <div class="rules__thin">
-          <h2 class="rules-thin-title">Похудение</h2>
-          <p class="rules-thin-text">
+          <h2 class="rules-title">Похудение</h2>
+          <p class="rules-text">
             Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.
           </p>
-          <a class="rules-thin-link" href="#">
-            <span class="rules-thin-link-text">Каталог slim</span>
+          <a class="rules-link" href="#">
+            <span class="rules-link-text">Каталог slim</span>
             <img src="#" alt="стрелка">
           </a>
         </div>
         <div class="rules__fat">
-          <h2 class="rules-fat-title">набор массы</h2>
-          <p class="rules-fat-text">
+          <h2 class="rules-title">набор массы</h2>
+          <p class="rules-text">
             Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!
           </p>
-          <a class="rules-fat-link" href="#">
-            <span class="rules-fat-link-text">Каталог pro</span>
+          <a class="rules-link" href="#">
+            <span class="rules-link-text">Каталог pro</span>
             <img src="#" alt="стрелка">
           </a>
         </div>
@@ -122,15 +122,15 @@
           Живой пример
         </h2>
         <p class="example__text">
-          Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.
+          Борис сбросил 5 кг за 2 месяца, просто заменив свой<br>обычный корм на Cat Energy Slim. Отличный результат<br> без изнуряющих тренировок! При этом он не менял своих<br>привычек и по-прежнему спит по 16 часов в день.
         </p>
         <fieldset class="example__weight">
-          <legend class="example__tittle">снижение веса</legend>
           <p class="example__item">5кг</p>
+          <legend class="example__title--leg">снижение веса</legend>
         </fieldset>
         <fieldset class="example__time">
-          <legend class="example__tittle">Затрачено времени</legend>
           <p class="example__item">60 дней</p>
+          <legend class="example__title--leg">Затрачено времени</legend>
         </fieldset>
         <div class="example__nutrition">
           <p class="example__nutrition-item">Затраты на питание:</p>
@@ -145,7 +145,7 @@
         </picture>
 
         <picture>
-          <source media="(min-width: 1200px)" width="560" height="512" type="image/jpeg" srcset="images/сat-thin-tablet-dekstop@1x.jpg 1x, images/cat-thin-tablet-dekstop@2x.jpg 2x">
+          <source media="(min-width: 1200px)" width="560" height="512" type="image/jpeg" srcset="images/cat-thin-tablet-dekstop@1x.jpg 1x, images/cat-thin-tablet-dekstop@2x.jpg 2x">
 
           <source media="(min-width: 768px)" width="560" height="512" type="image/jpeg" srcset="images/сat-thin-tablet-dekstop@1x.jpg 1x, images/cat-thin-tablet-dekstop@2x.jpg 2x">
 
@@ -154,7 +154,11 @@
       </div>
     </section>
     <section class="map">
-      <h2>Карта</h2>
+      <div class="map-wrapper">
+        <h2 class="map-title">приглашаем к сотрудничеству дилеров!</h2>
+        <p class="map-text1">ул. Большая Конюшенная, д. 19/8</p>
+        <p class="map-text2">Санкт-Петербург</p>
+      </div>
       <picture>
         <source media="(min-width: 1200px)" width="1440" height="400" type="image/jpeg" srcset="images/location-dextop@1x.jpg 1x, images/location-dextop@2x.jpg 2x">
 
@@ -189,7 +193,7 @@
           </li>
         </ul>
       </div>
-      <div class="main-footer__copyrightcopyright">
+      <div class="main-footer__copirayting">
         <a class="copirayting-link" href="https://htmlacademy.ru/study">
           <b class="copyright-text">HTML Academy</b>
           <span>лого</span>
