@@ -1,17 +1,137 @@
+.nutrition-program {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.text-index {
+  width: 100%;
+}
+
 .main-title {
   font-family: "Oswald", sans-serif;
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 41px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  width: 100%;
 }
 
 .main-text {
   font-family: "Oswald", sans-serif;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 14px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin: 0;
+  margin-top: 25px;
+}
+
+.index-cat {
+  display: flex;
+  margin-top: 29px;
+  justify-content: center;
 }
 
 .button__main--text {
   font-family: "Oswald", sans-serif;
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.main-button-program-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.main-button-program {
+  padding: 10px 63px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .main-title {
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    line-height: 60px;
+    margin-top: 65px;
+    text-align: start;
+    justify-content: start;
+    margin-left: 120px;
+  }
+
+  .main-text {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    justify-content: start;
+    margin-top: 40px;
+    margin-left: 120px;
+  }
+
+  .index-cat {
+    margin-top: 21px;
+    margin-left: 20px;
+    position: relative;
+    display: block;
+    align-items: start;
+    justify-content: start;
+  }
+
+
+  .button__main--text {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .main-button-program-wrapper {
+    position: absolute;
+    z-index: 2;
+    bottom: 440px;
+    left: 120px;
+  }
+
+  .main-button-program {
+    padding: 14px 24px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1200px) {
+  .text-index {
+    display: flex;
+    position: relative;
+  }
+
+  .nutrition-program-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-button-program-wrapper {
+    position: absolute;
+    display: inline-block;
+    top: 460px;
+    left: 190px;
+  }
+
+  .main-title {
+    margin-top: 110px;
+    margin-left: 190px;
+  }
+
+  .main-text {
+    margin-top: 40px;
+    margin-left: 190px;
+  }
+
+  .index-cat {
+    z-index: -1;
+  }
 }

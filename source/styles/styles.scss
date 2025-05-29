@@ -6,6 +6,8 @@
 
 
 /* BLOCKS */
+@import "./blocks/button.scss";
+@import "./blocks/visually-hidden.scss";
 @import "./blocks/header.scss";
 @import "./blocks/page__body.scss";
 @import "./blocks/main__menu--nav.scss";
@@ -13,13 +15,14 @@
 @import "./blocks/nutrition-program.scss";
 @import "./blocks/rules.scss";
 @import "./blocks/description.scss";
+@import "./blocks/slider.scss";
 @import "./blocks/example.scss";
 @import "./blocks/map.scss";
 @import "./blocks/main-footer.scss";
 @import "./blocks/main-footer__logo.scss";
 @import "./blocks/footer-social.scss";
 @import "./blocks/main-footer__copirayting.scss";
-@import "./blocks/catalog-wrapper.scss";
+@import "./blocks/catalog-feed.scss";
 @import "./blocks/product-cart.scss";
 @import "./blocks/product-list.scss";
 @import "./blocks/additionally.scss";

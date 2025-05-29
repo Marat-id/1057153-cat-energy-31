@@ -1,35 +1,296 @@
 .additionally-title {
   font-family: "Oswald", sans-serif;
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0;
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-bottom: 36px;
 }
+
+.components {
+  display: flex;
+  flex-direction: column;
+  margin-top: 19px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-top: 1px solid #cdcdcd;
+  padding-top: 13px;
+}
+
+.last-components {
+  border-bottom: 1px solid #cdcdcd;
+  padding-bottom: 19px;
+}
+
+.components-item-list {
+  display: flex;
+  margin-top: 13px;
+  justify-content: space-between;
+}
+
 
 .components-item {
   font-family: "Oswald", sans-serif;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 16px;
+  margin: 0;
+  text-transform: uppercase;
 }
 
 .components-volume {
   font-family: "Lato", sans-serif;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 14px;
+  margin: 0;
 }
+
+.button-components {
+  margin-top: 15px;
+}
+
 
 .components-description {
   font-family: "Lato", sans-serif;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 14px;
+  margin: 0;
 }
 
 .button-components-order {
   font-family: "Oswald", sans-serif;
   font-size: 16px;
   line-height: 20px;
+  padding: 10px 109px;
+  margin-top: 15px;
+  text-transform: uppercase;
 }
 
 .present-text {
   font-family: "Lato", sans-serif;
   font-size: 16px;
   line-height: 20px;
+  color: #ffffff;
+  margin: 0;
+  padding-top: 186px;
+  padding-bottom: 43px;
+  padding-left: 58px;
+  text-align: center;
+  width: 161px;
+}
+
+.present {
+  position: relative;
+  margin-top: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: green;
+}
+
+.present::before {
+  content: "";
+  background-image: url("../../icons/icon_gift-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 59;
+  left: 101;
+  width: 78px;
+  height: 80px;
+}
+
+@media (min-width: 768px) {
+  .additionally-title {
+    font-family: "Oswald", sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    margin-top: 74px;
+    margin-left: 70px;
+    margin-bottom: 0;
+  }
+
+  .components-wrapper {
+    margin-top: 80px;
+  }
+
+  .components {
+    border: 1px solid #cdcdcd;
+    padding: 38px 26px;
+    margin-top: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .components-item-compound {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .components-item-list {
+    display: block;
+    margin: 0;
+  }
+
+  .components-item {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .components-volume {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .components-description {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 50px;
+  }
+
+  .button-components-order {
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 285px;
+    margin-top: 25px;
+  }
+
+
+  .present-text {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 71px;
+    padding-bottom: 69px;
+    padding-left: 421px;
+    text-align: center;
+    width: 161px;
+  }
+
+  .present {
+    position: relative;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: green;
+  }
+
+  .present::before {
+    content: "";
+    background-image: url("../../icons/icon_gift-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 57;
+    left: 77;
+    width: 80px;
+    height: 82px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .additionally-title {
+    margin-top: 71px;
+    margin-left: 110px;
+  }
+
+  .additionally-wrapper {
+    display: flex;
+  }
+
+  .components-item-compound {
+    width: 894px;
+    justify-content: flex-start;
+  }
+
+  .components-wrapper {
+    margin-left: 110px;
+    min-width: 896px;
+  }
+
+
+  .components {
+    border-left: none;
+    border-right: none;
+    margin: 0;
+    flex-direction: row;
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 17px;
+  }
+
+
+  .button-components-order {
+    padding: 10px 91px;
+    margin-top: 0;
+  }
+
+  .components-item-list {
+    padding-top: 7px;
+  }
+
+  .components-item {
+    padding-top: 5px;
+  }
+
+
+  .components-description {
+    padding-left: 0;
+  }
+
+  .present {
+    margin-left: 80px;
+    flex-direction: column;
+  }
+
+  .present-text {
+    padding: 185px 42px 43px;
+  }
+
+  .present::before {
+    content: "";
+    background-image: url("../../icons/icon_gift-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 56;
+    left: 83;
+    width: 80px;
+    height: 83px;
+  }
+
+  .volume1 {
+    margin-left: 164px;
+  }
+
+  .description1 {
+    margin-left: 112px;
+  }
+
+  .volume2 {
+    margin-left: 195px;
+  }
+
+  .description2 {
+    margin-left: 178px;
+  }
+
+  .volume3 {
+    margin-left: 256px;
+  }
+
+  .description3 {
+    margin-left: 195px;
+  }
+
+  .volume4 {
+    margin-left: 235px;
+  }
+
+  .description4 {
+    margin-left: 122px;
+  }
 }
