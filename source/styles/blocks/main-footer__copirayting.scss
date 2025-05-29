@@ -1,0 +1,46 @@
+.main-footer__copirayting {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+}
+
+.copirayting-link {
+  text-decoration: none;
+  padding-top: 7px;
+}
+
+.text-logo-html {
+  margin: 0;
+  color: #444444;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.logo-academy {
+  margin-left: 140px;
+}
+
+@media (min-width: 768px) {
+  .main-footer__copirayting {
+    margin: 0;
+    padding: 0;
+    margin-top: 55px;
+    margin-left: 120px;
+  }
+
+  .logo-academy {
+    margin-left: 23px;
+  }
+
+  .copirayting-link {
+    padding-top: 8;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-footer__copirayting {
+    margin-top: 66px;
+    margin-left: 376px;
+  }
+}
