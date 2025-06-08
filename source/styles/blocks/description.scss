@@ -69,6 +69,7 @@
 
 .description__title {
   font-family: "Oswald", sans-serif;
+  font-weight: 400;
   font-size: 36px;
   line-height: 40px;
   margin: 0;
@@ -82,12 +83,14 @@
 
 .description__text {
   font-family: "Lato", sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   margin: 0;
   margin-top: 24px;
   margin-left: 100px;
   width: 200px;
+  color: #444444;
 }
 
 .description__icon {

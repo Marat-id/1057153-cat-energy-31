@@ -9,6 +9,7 @@
 
 .example__title {
   font-family: "Oswald", sans-serif;
+  font-weight: 400;
   font-size: 36px;
   line-height: 40px;
   margin: 0;
@@ -17,11 +18,13 @@
 
 .example__text {
   font-family: "Lato", sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   margin: 0;
   margin-top: 40px;
   width: 280px;
+  color: #444444;
 }
 
 .example-function {
@@ -33,6 +36,7 @@
 
 .example__item {
   font-family: "Oswald", sans-serif;
+  font-weight: 400;
   font-size: 24px;
   line-height: 24px;
   text-align: center;
@@ -50,16 +54,18 @@
 }
 
 .example__title--leg {
-
   font-family: "Lato", sans-serif;
+  font-weight: 400;
   font-size: 12px;
   line-height: 100%;
   width: 77px;
   text-align: center;
+  color: #444444;
 }
 
 .example__nutrition-item {
   font-family: "Oswald", sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   margin: 0;
@@ -67,6 +73,7 @@
 
 .example__nutrition-item-price {
   font-family: "Oswald", sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   margin: 0;
@@ -84,6 +91,11 @@
 }
 
 @media (min-width: 768px) {
+  .example {
+    background-color: #ffffff;
+    margin-top: 0;
+  }
+
   .example__title {
     font-family: "Oswald", sans-serif;
     font-size: 60px;

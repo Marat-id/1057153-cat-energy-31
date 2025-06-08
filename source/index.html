@@ -33,7 +33,7 @@
         <img src="images/icons/menu_mobile.svg" width="24" height="24" type="image/svg+xml" alt="кнопка меню">
       </button>
       <div class="main-nav-wrapper-mobile popover-mobile" id="popover">
-        <ul class="main-nav-list site-list-mobile">
+        <ul class="main-nav-list-mobile site-list-mobile">
           <li class="site-list__item-mobile site-list__item-active">
             <a class="link-nav" href="#">Главная</a>
           </li>
@@ -68,23 +68,26 @@
             Функциональное <br>питание для котов
           </h2>
           <p class="main-text">Занялся собой? Займись котом!</p>
-        </div>
-        <div class="index-cat">
-          <picture>
-            <source media="(min-width: 1200px)" width="552" height="499" type="image/jpeg" srcset="images/index-can-dekstop@1x.jpg 1x, images/index-can-dekstop@2x.jpg 2x">
+          <div class="index-cat">
+            <picture>
+              <source media="(min-width: 1200px)" width="552" height="499" type="image/png" srcset="images/index-can-dekstop@1x.png 1x, images/index-can-dekstop@2x.png 2x">
 
-            <source media="(min-width: 768px)" width="709" height="609" type="image/jpeg" srcset="images/index-can-tablet@1x.jpg 1x, images/index-can-tablet@2x.jpg 2x">
+              <source media="(min-width: 768px)" width="709" height="609" type="image/png" srcset="images/index-can-tablet@1x.png 1x, images/index-can-tablet@2x.png 2x">
 
-            <img src="images/index-can-mobile@1x.jpg" srcset="images/index-can-mobile@2x.jpg" width="280" height="270" alt="Корм для котика">
-          </picture>
+              <img src="images/index-can-mobile@1x.png" srcset="images/index-can-mobile@2x.png" width="280" height="270" alt="Корм для котика">
+            </picture>
+
+          </div>
+          <div class="main-button-program-wrapper">
+            <button class="main-button-program button" type="button">
+              <span class="button__main--text">Подобрать программу</span>
+            </button>
+          </div>
         </div>
       </div>
-      <div class="main-button-program-wrapper">
-        <button class="main-button-program button" type="button">
-          <span class="button__main--text">Подобрать программу</span>
-        </button>
       </div>
     </section>
+
     <section class="rules">
       <div class="rules__wrapper">
         <h2 class="visually-hidden">Описание линеек корма</h2>
@@ -173,20 +176,20 @@
           <div class="images-cat-container">
             <div class="slider-image-left">
               <picture>
-                <source media="(min-width: 1200px)" width="560" height="512" type="image/jpeg" srcset="images/cat-fat-tablet-dekstop@1x.jpg 1x, images/cat-fat-tablet-dekstop@2x.jpg 2x">
+                <source media="(min-width: 1200px)" width="560" height="512" type="image/png" srcset="images/cat-fat-tablet-dekstop@1x.png 1x, images/cat-fat-tablet-dekstop@2x.png 2x">
 
-                <source media="(min-width: 768px)" width="560" height="512" type="image/jpeg" srcset="images/cat-fat-tablet-dekstop@1x.jpg 1x, images/cat-fat-tablet-dekstop@2x.jpg 2x">
+                <source media="(min-width: 768px)" width="560" height="512" type="image/png" srcset="images/cat-fat-tablet-dekstop@1x.png 1x, images/cat-fat-tablet-dekstop@2x.png 2x">
 
-                <img src="images/cat-fat-mobile@1x.jpg" srcset="images/cat-fat-mobile@2x.jpg" width="280" height="256" alt="Толстый кот">
+                <img src="images/cat-fat-mobile@1x.png" srcset="images/cat-fat-mobile@2x.png" width="280" height="256" alt="Толстый кот">
               </picture>
             </div>
             <div class="slider-image-right">
               <picture>
-                <source media="(min-width: 1200px)" width="560" height="512" type="image/jpeg" srcset="images/cat-thin-tablet-dekstop@1x.jpg 1x, images/cat-thin-tablet-dekstop@2x.jpg 2x">
+                <source media="(min-width: 1200px)" width="560" height="512" type="image/png" srcset="images/cat-thin-tablet-dekstop@1x.png 1x, images/cat-thin-tablet-dekstop@2x.png 2x">
 
-                <source media="(min-width: 768px)" width="560" height="512" type="image/jpeg" srcset="images/сat-thin-tablet-dekstop@1x.jpg 1x, images/cat-thin-tablet-dekstop@2x.jpg 2x">
+                <source media="(min-width: 768px)" width="560" height="512" type="image/png" srcset="images/сat-thin-tablet-dekstop@1x.png 1x, images/cat-thin-tablet-dekstop@2x.png 2x">
 
-                <img src="images/cat-thin-mobile@1x.jpg" srcset="images/cat-thin-mobile@2x.jpg" width="280" height="256" alt="Худой кот">
+                <img src="images/cat-thin-mobile@1x.png" srcset="images/cat-thin-mobile@2x.png" width="280" height="256" alt="Худой кот">
               </picture>
             </div>
           </div>
@@ -208,13 +211,7 @@
         </div>
       </div>
       <div class="map-piter">
-        <picture>
-          <source media="(min-width: 1200px)" width="1440" height="400" type="image/jpeg" srcset="images/location-dextop@1x.jpg 1x, images/location-dextop@2x.jpg 2x">
-
-          <source media="(min-width: 768px)" width="768" height="400" type="image/jpeg" srcset="images/location-tablet@1x.jpg 1x, images/location-tablet@2x.jpg 2x">
-
-          <img src="images/location-mobile@1x.jpg" srcset="images/location-mobile@2x.jpg" width="320" height="362" alt="Локация">
-        </picture>
+        <iframe class="map-int" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13522.716828074774!2d50.18946098118635!3d53.19092717144612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41661c24dc9b3e33%3A0xb0addde83a02fe4c!2z0JDQstGA0L7RgNCwINCc0L7Qu9C7!5e0!3m2!1sru!2sru!4v1749142291495!5m2!1sru!2sru" width="320" height="362" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </section>
   </main>

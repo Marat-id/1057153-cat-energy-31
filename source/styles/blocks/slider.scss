@@ -35,24 +35,6 @@
   background-color: #666666;
 }
 
-.example {
-  position: relative;
-}
-
-.slider-image-left,
-.slider-image-right {
-  position: absolute;
-  top: 363;
-  left: 0;
-  width: 50%;
-  height: 100%;
-  object-fit: cover;
-  overflow: hidden;
-}
-
-.slider-image-right {
-  left: 50%;
-}
 
 @media (min-width: 768px) {
   .slider-button {

@@ -4,15 +4,30 @@
 
 .stock-title {
   font-family: "Oswald", sans-serif;
+  font-weight: 400;
   font-size: 24px;
   line-height: 24px;
   margin: 0;
   margin-top: 40px;
-  margin-left: 20px;
+  padding-left: 20px;
+  display: flex;
+  position: relative;
+}
+
+.stock-title::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 108px;
+  height: 2px;
+  background-color: rgba(104, 183, 56, 1);
 }
 
 .subscription {
   font-family: "Oswald", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   width: 280px;
@@ -25,6 +40,10 @@
 .button-newsletter {
   padding: 15px 82px;
   margin-top: 16px;
+}
+
+.button-newsletter:hover {
+  background-color: rgba(94, 170, 47, 1);
 }
 
 .news-letter-form {
@@ -43,23 +62,50 @@
 
 .news-letter {
   font-family: "Oswald", sans-serif;
+  font-weight: 400;
   font-size: 20px;
-  line-height: 26px;
+  line-height: 100%;
   text-transform: uppercase;
 }
 
+.news-letter:active {
+  opacity: 30%;
+}
 
 @media (min-width: 768px) {
   .stock {
     margin-bottom: 80px;
   }
 
+
   .stock-title {
     font-family: "Oswald", sans-serif;
     font-size: 32px;
     line-height: 32px;
     margin-top: 80px;
-    margin-left: 70px;
+    padding-left: 70px;
+  }
+
+  .stock-title::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 456px;
+    height: 2px;
+    background-color: rgba(104, 183, 56, 1);
+  }
+
+  .stock-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 2px;
+    background-color: rgba(104, 183, 56, 1);
   }
 
   .subscription {
@@ -103,7 +149,29 @@
     font-size: 32px;
     line-height: 32px;
     margin-top: 96px;
-    margin-left: 110px;
+    padding-left: 110px;
+  }
+
+  .stock-title::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1053px;
+    height: 2px;
+    background-color: rgba(104, 183, 56, 1);
+  }
+
+  .stock-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70px;
+    height: 2px;
+    background-color: rgba(104, 183, 56, 1);
   }
 
   .subscription {

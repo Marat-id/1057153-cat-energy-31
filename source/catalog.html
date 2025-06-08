@@ -10,7 +10,7 @@
 </head>
 
 <body class="page__body">
-  <header class="main-header main-header-catalog">
+  <header class="main-header">
     <div class="main-header-logo">
       <div class="main-header__logo--cat">
         <picture>
@@ -33,12 +33,12 @@
         <img src="images/icons/menu_mobile.svg" width="24" height="24" type="image/svg+xml" alt="кнопка меню">
       </button>
       <div class="main-nav-wrapper-mobile popover-mobile" id="popover">
-        <ul class="main-nav-list site-list-mobile">
+        <ul class="main-nav-list-mobile site-list-mobile">
           <li class="site-list__item-mobile site-list__item-active">
-            <a class="link-nav" href="index.html">Главная</a>
+            <a class="link-nav" href="#">Главная</a>
           </li>
           <li class="site-list__item-mobile">
-            <a class="link-nav" href="#">Каталог продукции</a>
+            <a class="link-nav" href="catalog.html">Каталог продукции</a>
           </li>
           <li class="site-list__item-mobile">
             <a class="link-nav" href="program-details.html">Подбор программы</a>
@@ -47,14 +47,14 @@
       </div>
       <div class="main-nav-wrapper">
         <ul class="main-nav-list site-list">
-          <li class="site-list__item site-list__item-active">
-            <a class="link-nav" href="index.html">Главная</a>
+          <li class="site-list__item">
+            <a class="link-nav link-nav-catalog" href="index.html">Главная</a>
+          </li>
+          <li class="site-list__item site-list__item-active-catalog">
+            <a class="link-nav link-nav-catalog" href="#">Каталог продукции</a>
           </li>
           <li class="site-list__item">
-            <a class="link-nav" href="#">Каталог продукции</a>
-          </li>
-          <li class="site-list__item">
-            <a class="link-nav" href="program-details.html">Подбор программы</a>
+            <a class="link-nav link-nav-catalog" href="program-details.html">Подбор программы</a>
           </li>
         </ul>
       </div>
@@ -96,7 +96,7 @@
           </div>
           <div class="product-button">
             <button class="button-order button" type="button">
-              Заказать
+              <span class="button-buy">Заказать</span>
             </button>
           </div>
         </li>
@@ -132,7 +132,7 @@
           </div>
           <div class="product-button">
             <button class="button-order button" type="button">
-              Заказать
+              <span class="button-buy">Заказать</span>
             </button>
           </div>
         </li>
@@ -168,7 +168,7 @@
           </div>
           <div class="product-button">
             <button class="button-order button" type="button">
-              Заказать
+              <span class="button-buy">Заказать</span>
             </button>
           </div>
         </li>
@@ -204,7 +204,7 @@
           </div>
           <div class="product-button">
             <button class="button-order button" type="button">
-              Заказать
+              <span class="button-buy">Заказать</span>
             </button>
           </div>
         </li>
@@ -240,7 +240,7 @@
           </div>
           <div class="product-button">
             <button class="button-order button" type="button">
-              Заказать
+              <span class="button-buy">Заказать</span>
             </button>
           </div>
         </li>
@@ -276,7 +276,7 @@
           </div>
           <div class="product-button">
             <button class="button-order button" type="button">
-              Заказать
+              <span class="button-buy">Заказать</span>
             </button>
           </div>
         </li>
@@ -312,7 +312,7 @@
           </div>
           <div class="product-button">
             <button class="button-order button" type="button">
-              Заказать
+              <span class="button-buy">Заказать</span>
             </button>
           </div>
         </li>
@@ -353,7 +353,7 @@
               </div>
             </div>
             <button class="button-components-order button" type="button">
-              Заказать
+              <span class="button-buy">Заказать</span>
             </button>
           </div>
           <div class="components">
@@ -371,7 +371,7 @@
               </div>
             </div>
             <button class="button-components-order button" type="button">
-              Заказать
+              <span class="button-buy">Заказать</span>
             </button>
           </div>
           <div class="components">
@@ -389,7 +389,7 @@
               </div>
             </div>
             <button class="button-components-order button" type="button">
-              Заказать
+              <span class="button-buy">Заказать</span>
             </button>
           </div>
           <div class="components last-components">
@@ -407,7 +407,7 @@
               </div>
             </div>
             <button class="button-components-order button" type="button">
-              Заказать
+              <span class="button-buy">Заказать</span>
             </button>
           </div>
         </div>
@@ -444,13 +444,7 @@
           </div>
         </div>
         <div class="map-piter">
-          <picture>
-            <source media="(min-width: 1200px)" width="1440" height="400" type="image/jpeg" srcset="images/location-dextop@1x.jpg 1x, images/location-dextop@2x.jpg 2x">
-
-            <source media="(min-width: 768px)" width="768" height="400" type="image/jpeg" srcset="images/location-tablet@1x.jpg 1x, images/location-tablet@2x.jpg 2x">
-
-            <img src="images/location-mobile@1x.jpg" srcset="images/location-mobile@2x.jpg" width="320" height="362" alt="Локация">
-          </picture>
+          <iframe class="map-int" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13522.716828074774!2d50.18946098118635!3d53.19092717144612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41661c24dc9b3e33%3A0xb0addde83a02fe4c!2z0JDQstGA0L7RgNCwINCc0L7Qu9C7!5e0!3m2!1sru!2sru!4v1749142291495!5m2!1sru!2sru" width="320" height="362" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </section>

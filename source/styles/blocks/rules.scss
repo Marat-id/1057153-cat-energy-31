@@ -40,6 +40,7 @@
 
 .rules-title {
   font-family: "Oswald", sans-serif;
+  font-weight: 400;
   font-size: 24px;
   line-height: 37px;
   padding-top: 30px;
@@ -51,6 +52,7 @@
 
 .rules-text {
   font-family: "Lato", sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   text-align: start;
@@ -58,11 +60,13 @@
   border-bottom: 1px solid #d9d9d9;
   padding-bottom: 23px;
   width: 227px;
+  color: #444444;
 }
 
 
 .rules-link-text {
   font-family: "Oswald", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 16px;
   color: #000000;
@@ -162,11 +166,11 @@
 
   .rules__thin {
     margin-left: 110px;
-    margin-top: 82px;
+    margin-top: 0;
   }
 
   .rules__fat {
-    margin-top: 82px;
+    margin-top: 0;
     margin-left: 80px;
   }
 

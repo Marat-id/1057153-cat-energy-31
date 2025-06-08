@@ -1,11 +1,27 @@
 .additionally-title {
   font-family: "Oswald", sans-serif;
+  font-weight: 400;
   font-size: 24px;
   line-height: 24px;
   margin: 0;
   margin-top: 25px;
-  margin-left: 20px;
+  padding-left: 20px;
   margin-bottom: 36px;
+  display: flex;
+  position: relative;
+  padding-right: 40px;
+  color: #000000;
+}
+
+.additionally-title::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 34px;
+  height: 2px;
+  background-color: rgba(104, 183, 56, 1);
 }
 
 .components {
@@ -32,17 +48,21 @@
 
 .components-item {
   font-family: "Oswald", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 16px;
   margin: 0;
   text-transform: uppercase;
+  color: #222222;
 }
 
 .components-volume {
   font-family: "Lato", sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 14px;
   margin: 0;
+  color: #444444;
 }
 
 .button-components {
@@ -52,8 +72,10 @@
 
 .components-description {
   font-family: "Lato", sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 14px;
+  color: #444444;
   margin: 0;
 }
 
@@ -66,8 +88,13 @@
   text-transform: uppercase;
 }
 
+.button-components-order:hover {
+  background-color: rgba(94, 170, 47, 1);
+}
+
 .present-text {
   font-family: "Lato", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
@@ -84,7 +111,10 @@
   margin-top: 35px;
   margin-left: 20px;
   margin-right: 20px;
-  background-color: green;
+  background-image: url("../../images/cat-backpack@1x.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -2;
 }
 
 .present::before {
@@ -99,14 +129,46 @@
   height: 80px;
 }
 
+.present::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(104, 183, 56, 0.85);
+  width: 280px;
+  height: 290px;
+  top: 0;
+  z-index: -1;
+}
+
 @media (min-width: 768px) {
   .additionally-title {
     font-family: "Oswald", sans-serif;
     font-size: 32px;
     line-height: 32px;
     margin-top: 74px;
-    margin-left: 70px;
+    padding-left: 70px;
     margin-bottom: 0;
+  }
+
+  .additionally-title::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 357px;
+    height: 2px;
+    background-color: rgba(104, 183, 56, 1);
+  }
+
+  .additionally-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 2px;
+    background-color: rgba(104, 183, 56, 1);
   }
 
   .components-wrapper {
@@ -175,7 +237,21 @@
     margin-top: 70px;
     margin-left: 30px;
     margin-right: 30px;
-    background-color: green;
+    background-image: url("../../images/сat-backpack-tablet@1x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -2;
+  }
+
+
+  .present::after {
+    content: "";
+    position: absolute;
+    background-color: rgba(104, 183, 56, 0.85);
+    width: 707px;
+    height: 200px;
+    top: 0;
+    z-index: -1;
   }
 
   .present::before {
@@ -193,8 +269,33 @@
 
 @media (min-width: 1200px) {
   .additionally-title {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 400;
     margin-top: 71px;
-    margin-left: 110px;
+    padding-left: 110px;
+  }
+
+  .additionally-title::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 914px;
+    height: 2px;
+    background-color: rgba(104, 183, 56, 1);
+  }
+
+  .additionally-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70px;
+    height: 2px;
+    background-color: rgba(104, 183, 56, 1);
   }
 
   .additionally-wrapper {
@@ -243,7 +344,21 @@
 
   .present {
     margin-left: 80px;
-    flex-direction: column;
+    background-image: url("../../images/cat-backpack-dekstop@1x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -2;
+  }
+
+
+  .present::after {
+    content: "";
+    position: absolute;
+    background-color: rgba(104, 183, 56, 0.85);
+    width: 245px;
+    height: 288px;
+    top: 0;
+    z-index: -1;
   }
 
   .present-text {

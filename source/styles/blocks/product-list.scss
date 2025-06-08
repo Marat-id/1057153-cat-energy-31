@@ -31,6 +31,8 @@
   margin: 0;
   width: 76px;
   text-transform: uppercase;
+  font-weight: 400;
+  color: #222222;
 }
 
 .product-list-next {
@@ -42,17 +44,21 @@
 
 .product-text {
   font-family: "Lato", sans-serif;
+  font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   margin: 0;
+  color: #444444;
 }
 
 .product-description {
   font-family: "Lato", sans-serif;
+  font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   margin-left: 73px;
   width: 100%;
+  color: #444444;
   text-align: end;
 }
 
@@ -63,6 +69,14 @@
   padding: 10px 109px;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.button-order:hover {
+  background-color: rgba(94, 170, 47, 1);
+}
+
+.button-buy:active {
+  opacity: 30%;
 }
 
 .product-title-next {
@@ -95,6 +109,10 @@
   color: #444444;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.button-order-next:hover {
+  background-color: #ebebeb;
 }
 
 .plus {
@@ -180,8 +198,16 @@
     width: 324px;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
     border: none;
+    position: relative;
+  }
+
+  .product-list::before {
+    content: "";
+    position: absolute;
+    inset: 81px 0 0;
+    background-color: #f2f2f2;
+    z-index: -1;
   }
 
   .product-contanier {
@@ -272,7 +298,8 @@
   }
 
   .product-title {
-    margin-top: 32px;
+    margin: 0;
+    margin-top: 12px;
     margin-left: 53px;
   }
 
@@ -295,6 +322,10 @@
 
   .product-list-next {
     width: 245px;
+    margin: 0;
+    padding: 0;
+    margin-top: 81px;
+    border: 1px solid rgba(242, 242, 242, 1);
   }
 
   .plus {
@@ -302,7 +333,7 @@
   }
 
   .product-title-next {
-    margin-top: 100px;
+    margin-top: 40px;
     margin-left: 55px;
   }
 
@@ -312,11 +343,10 @@
   }
 
   .product-button-next {
-    margin-top: 90px;
     margin-left: 38px;
   }
 
   .button-order-next {
-    padding: 10px 40px;
+    padding: 10px 39px;
   }
 }

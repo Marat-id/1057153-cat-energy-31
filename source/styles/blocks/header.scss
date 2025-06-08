@@ -12,17 +12,15 @@
 }
 
 .main-header__logo--cat {
-  margin-top: 13px;
-  margin-left: 20px;
   padding: 0;
+  padding-top: 13px;
+  padding-left: 20px;
   display: flex;
   width: 100%;
 }
 
 .main-header__logo-text {
-  margin-top: 23px;
-  margin-left: 56px;
-  padding: 0;
+  padding-top: 23px;
   width: 100%;
 }
 
@@ -38,19 +36,25 @@
     padding: 0;
   }
 
-
-  .main-header__logo--cat {
+  .main-header-logo {
     margin-top: 25px;
     margin-left: 30px;
+    align-items: center;
+    width: auto;
+  }
+
+  .main-header__logo--cat {
+    margin: 0;
+    padding: 0;
     display: flex;
     width: auto;
   }
 
 
   .main-header__logo-text {
+    margin: 0;
     padding: 0;
-    margin-top: 41px;
-    margin-left: 13px;
+    padding-left: 13px;
   }
 
   .main-header-catalog {
@@ -66,17 +70,18 @@
     padding: 0;
   }
 
-
-  .main-header__logo--cat {
+  .main-header-logo {
     margin-top: 55px;
     margin-left: 110px;
+  }
+
+  .main-header__logo--cat {
     display: flex;
   }
 
 
   .main-header__logo-text {
     padding: 0;
-    margin-top: 74px;
-    margin-left: 14px;
+    padding-left: 14px;
   }
 }
