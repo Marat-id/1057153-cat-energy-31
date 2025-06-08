@@ -1,0 +1,411 @@
+.additionally-title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0;
+  margin-top: 25px;
+  padding-left: 20px;
+  margin-bottom: 36px;
+  display: flex;
+  position: relative;
+  padding-right: 40px;
+  color: #000000;
+}
+
+.additionally-title::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 34px;
+  height: 2px;
+  background-color: rgba(104, 183, 56, 1);
+}
+
+.components {
+  display: flex;
+  flex-direction: column;
+  margin-top: 19px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-top: 1px solid #cdcdcd;
+  padding-top: 13px;
+}
+
+.last-components {
+  border-bottom: 1px solid #cdcdcd;
+  padding-bottom: 19px;
+}
+
+.components-item-list {
+  display: flex;
+  margin-top: 13px;
+  justify-content: space-between;
+}
+
+
+.components-item {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.components-volume {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  margin: 0;
+  color: #444444;
+}
+
+.button-components {
+  margin-top: 15px;
+}
+
+
+.components-description {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #444444;
+  margin: 0;
+}
+
+.button-components-order {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 109px;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+.button-components-order:hover {
+  background-color: rgba(94, 170, 47, 1);
+}
+
+.present-text {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  margin: 0;
+  padding-top: 186px;
+  padding-bottom: 43px;
+  padding-left: 58px;
+  text-align: center;
+  width: 161px;
+}
+
+.present {
+  position: relative;
+  margin-top: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-image: url("../../images/cat-backpack@1x.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -2;
+}
+
+.present::before {
+  content: "";
+  background-image: url("../../icons/icon_gift-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 59;
+  left: 101;
+  width: 78px;
+  height: 80px;
+}
+
+.present::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(104, 183, 56, 0.85);
+  width: 280px;
+  height: 290px;
+  top: 0;
+  z-index: -1;
+}
+
+@media (min-width: 768px) {
+  .additionally-title {
+    font-family: "Oswald", sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    margin-top: 74px;
+    padding-left: 70px;
+    margin-bottom: 0;
+  }
+
+  .additionally-title::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 357px;
+    height: 2px;
+    background-color: rgba(104, 183, 56, 1);
+  }
+
+  .additionally-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 2px;
+    background-color: rgba(104, 183, 56, 1);
+  }
+
+  .components-wrapper {
+    margin-top: 80px;
+  }
+
+  .components {
+    border: 1px solid #cdcdcd;
+    padding: 38px 26px;
+    margin-top: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .components-item-compound {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .components-item-list {
+    display: block;
+    margin: 0;
+  }
+
+  .components-item {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .components-volume {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .components-description {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 50px;
+  }
+
+  .button-components-order {
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 285px;
+    margin-top: 25px;
+  }
+
+
+  .present-text {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 71px;
+    padding-bottom: 69px;
+    padding-left: 421px;
+    text-align: center;
+    width: 161px;
+  }
+
+  .present {
+    position: relative;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-image: url("../../images/сat-backpack-tablet@1x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -2;
+  }
+
+
+  .present::after {
+    content: "";
+    position: absolute;
+    background-color: rgba(104, 183, 56, 0.85);
+    width: 707px;
+    height: 200px;
+    top: 0;
+    z-index: -1;
+  }
+
+  .present::before {
+    content: "";
+    background-image: url("../../icons/icon_gift-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 57;
+    left: 77;
+    width: 80px;
+    height: 82px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .additionally-title {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 400;
+    margin-top: 71px;
+    padding-left: 110px;
+  }
+
+  .additionally-title::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 914px;
+    height: 2px;
+    background-color: rgba(104, 183, 56, 1);
+  }
+
+  .additionally-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70px;
+    height: 2px;
+    background-color: rgba(104, 183, 56, 1);
+  }
+
+  .additionally-wrapper {
+    display: flex;
+  }
+
+  .components-item-compound {
+    width: 894px;
+    justify-content: flex-start;
+  }
+
+  .components-wrapper {
+    margin-left: 110px;
+    min-width: 896px;
+  }
+
+
+  .components {
+    border-left: none;
+    border-right: none;
+    margin: 0;
+    flex-direction: row;
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 17px;
+  }
+
+
+  .button-components-order {
+    padding: 10px 91px;
+    margin-top: 0;
+  }
+
+  .components-item-list {
+    padding-top: 7px;
+  }
+
+  .components-item {
+    padding-top: 5px;
+  }
+
+
+  .components-description {
+    padding-left: 0;
+  }
+
+  .present {
+    margin-left: 80px;
+    background-image: url("../../images/cat-backpack-dekstop@1x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -2;
+  }
+
+
+  .present::after {
+    content: "";
+    position: absolute;
+    background-color: rgba(104, 183, 56, 0.85);
+    width: 245px;
+    height: 288px;
+    top: 0;
+    z-index: -1;
+  }
+
+  .present-text {
+    padding: 185px 42px 43px;
+  }
+
+  .present::before {
+    content: "";
+    background-image: url("../../icons/icon_gift-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 56;
+    left: 83;
+    width: 80px;
+    height: 83px;
+  }
+
+  .volume1 {
+    margin-left: 164px;
+  }
+
+  .description1 {
+    margin-left: 112px;
+  }
+
+  .volume2 {
+    margin-left: 195px;
+  }
+
+  .description2 {
+    margin-left: 178px;
+  }
+
+  .volume3 {
+    margin-left: 256px;
+  }
+
+  .description3 {
+    margin-left: 195px;
+  }
+
+  .volume4 {
+    margin-left: 235px;
+  }
+
+  .description4 {
+    margin-left: 122px;
+  }
+}

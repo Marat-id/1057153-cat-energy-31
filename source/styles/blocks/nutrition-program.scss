@@ -1,0 +1,226 @@
+.nutrition-program {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 14px;
+}
+
+.text-index {
+  position: relative;
+  background-image: url("../../images/index-background-mobile@1x.png");
+  background-repeat: no-repeat;
+  background-size: 320px 302px;
+  z-index: -2;
+}
+
+.text-index::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320;
+  height: 302;
+  background-color: rgba(104, 183, 56, 0.85);
+  z-index: -1;
+}
+
+.main-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 41px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  color: #ffffff;
+}
+
+.main-text {
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin: 0;
+  margin-top: 25px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.index-cat {
+  display: flex;
+  margin-top: 29px;
+  justify-content: center;
+}
+
+.button__main--text {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.main-button-program-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.main-button-program {
+  padding: 10px 63px;
+  cursor: pointer;
+}
+
+.main-button-program:hover {
+  background-color: #5eaa2f;
+}
+
+.button__main--text:active {
+  opacity: 30%;
+}
+
+@media (min-width: 768px) {
+  .main-title {
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    line-height: 60px;
+    margin-top: 65px;
+    text-align: start;
+    justify-content: start;
+    margin-left: 120px;
+    color: #000000;
+  }
+
+  .text-index {
+    position: relative;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: 320px 302px;
+    z-index: -2;
+  }
+
+  .text-index::after {
+    content: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 320;
+    height: 302;
+    background-color: rgba(104, 183, 56, 0.85);
+    z-index: -1;
+  }
+
+  .main-text {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    justify-content: start;
+    margin-top: 40px;
+    color: #000000;
+    margin-left: 120px;
+  }
+
+  .index-cat {
+    margin-top: 21px;
+    margin-left: 20px;
+    position: relative;
+    display: block;
+    align-items: start;
+    justify-content: start;
+  }
+
+
+  .button__main--text {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .main-button-program-wrapper {
+    position: absolute;
+    z-index: 2;
+    bottom: 530px;
+    left: 120px;
+  }
+
+  .main-button-program {
+    padding: 14px 24px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nutrition-program {
+    position: relative;
+    flex-direction: row;
+  }
+
+
+  .nutrition-program-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .main-button-program-wrapper {
+    position: static;
+    order: 3;
+    display: block;
+    margin-left: 190px;
+    margin-top: 52px;
+    margin-bottom: 280px;
+  }
+
+  .main-title {
+    margin-top: 110px;
+    margin-left: 190px;
+    order: 1;
+  }
+
+  .main-text {
+    margin-top: 40px;
+    margin-left: 190px;
+    order: 2;
+  }
+
+  .index-cat {
+    position: absolute;
+    left: 535px;
+    z-index: 1;
+  }
+
+  .nutrition-program::before {
+    content: "";
+    position: absolute;
+    top: -135px;
+    left: 720px;
+    width: 720px;
+    height: 694px;
+    background-image: url("../../images/index-background-desktop@1x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -4;
+  }
+
+
+  .nutrition-program::after {
+    content: "";
+    position: absolute;
+    top: -135px;
+    left: 720px;
+    width: 720px;
+    height: 694px;
+    background-color: rgba(104, 183, 56, 0.85);
+    z-index: -3;
+  }
+
+  .main-button-program {
+    padding: 14px 26px;
+    cursor: pointer;
+  }
+}

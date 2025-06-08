@@ -1,0 +1,26 @@
+.catalog-product {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 15px;
+  padding-left: 20px;
+  padding-top: 27px;
+  padding-bottom: 41px;
+  border-top: 1px solid #d9d9d9;
+  color: #000000;
+}
+
+@media (min-width: 768px) {
+  .catalog-product {
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    line-height: 60px;
+    margin-top: 65px;
+    margin-left: 30px;
+    margin-bottom: 0;
+    border: none;
+    padding-bottom: 0;
+  }
+}

@@ -1,0 +1,245 @@
+.description-leaves {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+.description-leaves::before {
+  content: "";
+  background-image: url("../../icons/leaves-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 60px;
+  height: 60px;
+}
+
+.description-water {
+  position: relative;
+  width: 100%;
+}
+
+.description-water::before {
+  content: "";
+  background-image: url("../../icons/water-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 60px;
+  height: 60px;
+}
+
+.description-eat {
+  position: relative;
+  width: 100%;
+}
+
+.description-eat::before {
+  content: "";
+  background-image: url("../../icons/eat-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 60px;
+  height: 60px;
+}
+
+.description-watch {
+  position: relative;
+  width: 100%;
+}
+
+.description-watch::before {
+  content: "";
+  background-image: url("../../icons/watch-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 60px;
+  height: 60px;
+}
+
+.description__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.description__item-wrapper {
+  margin-top: 40px;
+}
+
+.description__text {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+  margin-top: 24px;
+  margin-left: 100px;
+  width: 200px;
+  color: #444444;
+}
+
+.description__icon {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .description__wrapper {
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 104px;
+  }
+
+  .description__item-wrapper {
+    margin-top: 32px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 37px 150px;
+  }
+
+  .description__title {
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    line-height: 60px;
+    margin-top: 45px;
+    margin-left: 30px;
+  }
+
+
+  .description__text {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 151px;
+    margin: 0;
+    width: 243px;
+  }
+
+  .description__icon {
+    display: block;
+    font-family: "Oswald", sans-serif;
+    font-size: 280px;
+    line-height: 280px;
+    color: #f2f2f2;
+    position: absolute;
+    top: 0;
+    left: 118px;
+    z-index: -1;
+  }
+
+  .description-leaves {
+    position: relative;
+    width: 230px;
+    display: block;
+  }
+
+  .description-leaves::before {
+    content: "";
+    background-image: url("../../icons/leaves-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 80px;
+    height: 80px;
+  }
+
+  .description-water {
+    position: relative;
+    width: 246px;
+  }
+
+  .description-water::before {
+    content: "";
+    background-image: url("../../icons/water-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 80px;
+    height: 80px;
+  }
+
+  .description-eat {
+    position: relative;
+    width: 247px;
+  }
+
+  .description-eat::before {
+    content: "";
+    background-image: url("../../icons/eat-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 80px;
+    height: 80px;
+  }
+
+  .description-watch {
+    position: relative;
+    width: 249px;
+  }
+
+  .description-watch::before {
+    content: "";
+    background-image: url("../../icons/watch-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .description__wrapper {
+    border-bottom: none;
+  }
+
+  .description__item-wrapper {
+    margin-top: 32px;
+    margin-left: 110px;
+    display: flex;
+    gap: 0;
+  }
+
+  .description__title {
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    line-height: 60px;
+    margin-top: 71px;
+    margin-left: 110px;
+  }
+
+  .description-leaves {
+    margin-right: 94px;
+  }
+
+  .description-water {
+    margin-right: 100px;
+  }
+
+  .description-eat {
+    margin-right: 77px;
+  }
+}
